@@ -4,6 +4,12 @@ A reusable **n8n workflow template for automating student registration** for an 
 
 This repository contains the workflow originally built for **Python From Zero — Free Beginner Program**, but the automation is structured so it can be adapted to other registration use cases.
 
+![n8n Student Registration Workflow](assets/python-from-zero-workflow-screenshot2.jpg)
+
+The workflow validates registrations, checks for duplicates, stores student
+data in Google Sheets, sends a confirmation email, and redirects the student
+to WhatsApp.
+
 ## What it does
 
 The workflow automates the registration journey:
